@@ -1,0 +1,14 @@
+{
+    "manifest_version": 1,
+    "name": "Hide Data Usage Panel",
+    "description": "Hide Data-Usage Panel from utility tray footer.",
+    "version": "1.0",
+    "author": "Ram",
+    "content_scripts": [{
+      "matches": ["app://system.gaiamobile.org/index.html"],
+      "js": ["index.js"]
+    }],
+    "icons": {
+    "128": "/icons/icon128x128.png"
+    }
+}
